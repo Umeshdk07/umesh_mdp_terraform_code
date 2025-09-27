@@ -22,6 +22,6 @@ output "nic_id" {
 
 output "vm_id" {
   description = "ID of the virtual machine created"
-  value       = module.compute.vm_id
+  value       = module.vm_compute.vm_id
 }
 
