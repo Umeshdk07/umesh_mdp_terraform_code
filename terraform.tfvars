@@ -1,10 +1,10 @@
 sub_id                          = "21b61287-b2bd-4767-b872-b4d447d90553"
 location                        = "Central India"
-resource_group_name             = "mdp-dev"
-vnet_name                       = "mdp-vnet"
-vnet_address_space              = "10.11.0.0/16"
+resource_group_name             = "mdp-dev22"
+vnet_name                       = "mdp-vnet22"
+vnet_address_space              = "10.14.0.0/16"
 subnet_name                     = "mdp-dev-subnet"
-subnet_prefix                   = "10.11.1.0/24"
+subnet_prefix                   = "10.14.1.0/24"
 nic_name                        = "mdp-nic"
 nsg_name                        = "mdp-nsg"
 
@@ -22,7 +22,7 @@ os_disk_type                    = "Premium_LRS"
 disks_count                     = 2
 disks_size                      = 256
 
-peer_name_between_dev_vnet_to_jenkins_vnet = "dev_vnet_to_jenkins_vnet"
-peer_name_between_dev_vnet_to_amdp_vnet    = "dev_vnet_to_amdp_vnet"
-peer_name_between_jenkins_vnet_to_dev_vnet = "jenkins_vnet_to_dev_vnet"
-peer_name_between_amdp_vnet_to_dev_vnet    = "amdp_vnet_to_dev_vnet"
+peer_name_between_dev_vnet_to_jenkins_vnet = "dev_vnet_to_jenkins_vnet22"
+peer_name_between_dev_vnet_to_amdp_vnet    = "dev_vnet_to_amdp_vnet22"
+peer_name_between_jenkins_vnet_to_dev_vnet = "jenkins_vnet_to_dev_vnet22"
+peer_name_between_amdp_vnet_to_dev_vnet    = "amdp_vnet_to_dev_vnet22"
