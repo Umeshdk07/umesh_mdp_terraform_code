@@ -36,6 +36,4 @@ variable "nsg_name" {
   description = "Enter nsg name"
   type = string
 }
-variable "vnet_id" {
-  description = "Enter vnet id"
-}
+
