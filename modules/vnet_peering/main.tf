@@ -1,19 +1,19 @@
 data "azurerm_virtual_network" "jenkins" {
-  name                = var.jenkins_vnet_name
-  resource_group_name = var.jenkins_rg_name
+  name                = "amdp-jenkins-master-vnet"
+  resource_group_name = "amdp-jenkins"
 }
 
 data "azurerm_resource_group" "jenkins_rg" {
-  name = var.jenkins_rg_name
+  name = "amdp-jenkins"
 }
 
 data "azurerm_virtual_network" "development" {
-  name                = var.development_vnet_name
-  resource_group_name = var.development_rg_name
+  name                = "amdp-development2-vnet"
+  resource_group_name = "amdp-development2"
 }
 
 data "azurerm_resource_group" "development_rg" {
-  name = var.development_rg_name
+  name = "amdp-development2"
 }
 
 resource "azurerm_virtual_network_peering" "private_to_jenkins" {
