@@ -14,7 +14,7 @@ admin_username                  = "beroot"
 admin_password                  = "Beroot@123"
 
 image_publisher                 = "Canonical"
-image_offer                     = "0001-com-ubuntu-server-jammy:22_04-lts:latest-com-ubuntu-server-jammy"
+image_offer                     = "0001-com-ubuntu-server-jammy"
 image_sku                       = "22_04-lts"
 image_version                   = "latest"
 os_disk_type                    = "Premium_LRS"
