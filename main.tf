@@ -37,7 +37,7 @@ module "vm_compute" {
 
 module "vm_shutdown" {
   source   = "./modules/vm_shutdown"
-  vm_id    = module.compute.vm_id
+  vm_id    = module.vm_compute.vm_id
   location = var.location
 }
 
